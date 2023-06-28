@@ -12,9 +12,9 @@
             </nav>
         </header>
         <main>
-            <video autoplay loop volume="50" id="video_fondo"/>
+            <video  loop volume="50" id="video_fondo" onended="replay()">
                 <source src="video/video.mp4" >
-            </video/>
+            </video>
             <section id="principal">
                 <p>
                     <span id="titulo1">NUNCA DEJES DE</span>
@@ -30,7 +30,11 @@
             <a href="https://www.instagram.com/"><img src="img/instagram.png" alt="Instagram"/></a>
         </footer>
     </body>
-    <scrip>
-        
-    </scrip>
+    <script>
+        function replay() {
+            console.log('video ended');
+            document.getElementsByTagName('video').currentTime = 0;
+            document.getElementsByTagName('video')[0].play();
+        }   
+    </script>
 </html>

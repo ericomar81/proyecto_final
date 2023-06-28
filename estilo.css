@@ -2,7 +2,7 @@ body{
     color: #fff;
     font-family:sans-serif;
 }
-
+/*-
 h1{
     margin: 3.5% 0 0 6%;
     text-transform: uppercase;
@@ -38,7 +38,7 @@ h1{
     position: absolute;
     margin-top: -70px;
 }
-
+*/
 #video_fondo {
     position: fixed;
     right: 0;
