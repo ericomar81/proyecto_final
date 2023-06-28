@@ -6,6 +6,9 @@ body{
 h1{
     margin: 3.5% 0 0 6%;
     text-transform: uppercase;
+    position: absolute;
+    display: block;
+    z-index: 2;
 }
 
 #img_menu{
@@ -19,38 +22,27 @@ h1{
     font-size: 80px;
     font-weight: 700;
     margin: 15% 0 0 6%;
+    position: absolute;
 }
 
 #principal p:first-of-type span{
     line-height: 80px;
     width: 900px;
-    display: block;
+    position: absolute;    
+    margin-top: 10px;
 }
 
 
 #principal p:first-of-type span:first-of-type{
     font-size: 101px;
+    position: absolute;
+    margin-top: -70px;
 }
 
-#fondo_video {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
+#video_fondo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1000;
-    overflow: hidden;
-}
-
-#video_pattern {
-    background:#fff;
-    position: fixed;
-    opacity: 0.8;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
 }
