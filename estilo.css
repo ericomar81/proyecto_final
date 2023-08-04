@@ -1,48 +1,140 @@
 body{
     color: #fff;
     font-family:sans-serif;
+    padding: 0 10% 0 10%;
 }
-/*-
-h1{
-    margin: 3.5% 0 0 6%;
+header{
+    padding-top: 90px;
+}
+#logo{
+    display: inline;
+    margin: 0;
+}
+
+#logo img{
+    height: 50px;
+    margin-bottom: -20px;
+}
+#menu{
+    display: inline;
+}
+#menu a{
+    margin-inline: 20px;
     text-transform: uppercase;
-    position: absolute;
-    display: block;
-    z-index: 2;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
 }
-
-#img_menu{
+ button{
+    height: 30px;
     float: right;
-    display: absolute;
-    margin-top: -20px;
-    margin-right: 150px;
-}
-
-#principal p:first-of-type{
-    font-size: 80px;
-    font-weight: 700;
-    margin: 15% 0 0 6%;
-    position: absolute;
-}
-
-#principal p:first-of-type span{
-    line-height: 80px;
-    width: 900px;
-    position: absolute;    
-    margin-top: 10px;
-}
-
-
-#principal p:first-of-type span:first-of-type{
-    font-size: 101px;
-    position: absolute;
-    margin-top: -70px;
-}
-*/
-#video_fondo {
-    position: fixed;
+    position: relative;
+    display: inline;
+    border: 2px black solid;
     right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+    bottom: -6px;
+    margin-inline: 10px;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    width: 100px;
+}
+
+#inicia_sesion{
+    background-color: #fff;
+    color: black;
+}
+
+#registrate{
+    background-color: black;
+    color: #fff;
+}
+
+#principal {
+    padding-top: 40px;
+}
+
+#principal div {
+    height: 350px;
+    margin: 25px 0 25px 0;
+    overflow: hidden;
+}
+
+#seccion_principal{
+    background-color: #016241;
+    text-align: center;
+    padding: 20px 15% 20px 15% ;
+}
+
+#seccion_principal p{
+    font-size: 15px;
+    display: block;
+    line-height: 3rem;
+}
+
+.titulo_seccion{
+    font-size: 60px !important;
+    text-transform: uppercase;
+    line-height: 85px !important;
+    font-weight:lighter;
+    margin: 0;
+    letter-spacing: 0.2rem;
+}
+
+#seccion_principal p a{
+    text-decoration: underline;
+    color: #fff;
+}
+
+#seccion_contenido1{
+    background-color: #d40032;
+    display: table;
+    border-collapse: collapse;
+    /* table-layout: fixed; */
+    width: 100%;
+}
+#seccion_contenido1 > div{
+    display: table-cell;
+}
+#seccion_contenido1 figure img{
+    height: 350px;
+}
+
+#seccion_contenido1 figure{
+    float: left;
+    position: relative;
+    margin: 0;
+    display: inline;
+}
+#seccion_contenido1 > div:first-of-type{
+    width: 525.55px;
+}
+/*
+
+
+
+
+#seccion_contenido1 div{
+    float: right;
+    position: relative;
+    margin: 0;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 100%;
+}*/
+
+#pedido {
+    background-color: #d40032;
+    color: #fff;
+    border: 1.5px white solid;
+}
+#seccion_contenido2{
+    background-color: #d40032;
+}
+
+#derechos_reservados{
+    color: black;
+    font-size: 14px;
 }
