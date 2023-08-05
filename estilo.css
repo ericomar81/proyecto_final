@@ -86,27 +86,27 @@ header{
     color: #fff;
 }
 
-#seccion_contenido1{
+.seccion_contenido{
     background-color: #d40032;
     display: table;
     border-collapse: collapse;
     /* table-layout: fixed; */
     width: 100%;
 }
-#seccion_contenido1 > div{
+.seccion_contenido > div{
     display: table-cell;
 }
-#seccion_contenido1 figure img{
+.seccion_contenido figure img{
     height: 350px;
 }
 
-#seccion_contenido1 figure{
+.seccion_contenido figure{
     float: left;
     position: relative;
     margin: 0;
     display: inline;
 }
-#seccion_contenido1 > div:first-of-type{
+.seccion_contenido > div:first-of-type{
     width: 525.55px;
 }
 /*
@@ -114,7 +114,7 @@ header{
 
 
 
-#seccion_contenido1 div{
+.seccion_contenido div{
     float: right;
     position: relative;
     margin: 0;
@@ -129,6 +129,7 @@ header{
     background-color: #d40032;
     color: #fff;
     border: 1.5px white solid;
+    right: 40%;
 }
 #seccion_contenido2{
     background-color: #d40032;
@@ -137,4 +138,23 @@ header{
 #derechos_reservados{
     color: black;
     font-size: 14px;
+}
+
+footer a img{
+    width: 30px;
+    height: 30px;
+    margin: 0 5px 0 5px;
+}
+
+#principal div div{
+    vertical-align: top;
+}
+
+.anuncio{
+    text-align: center;
+}
+
+.texto_encabezado{
+    font-size: 22px;
+    line-height: 2em !important;
 }
